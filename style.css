@@ -1,0 +1,41 @@
+body {
+	
+	background-color: #A168D5;
+}
+
+.squad {
+	
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+	border: 10px solid #FFC900;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 90px;
+	font-family: 'Jua', sans-serif;
+	color: #FFC900;
+	background-color: #A68200;
+	box-shadow: 0px 10px 24px 3px rgba(0,0,0,0.75);
+	text-shadow: -1px -1px 1px rgba(0,0,0,0.75), 1px -1px 1px rgba(0,0,0,0.75);
+}
+
+.squad:hover {
+	cursor: pointer;
+}
+
+.text {
+	
+	margin: 50px auto;
+	width: 200px;
+	text-align: center;
+}
+
+.text p {
+	
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
