@@ -32,9 +32,6 @@ body {
 	 animation: bounceInLeft 2s ease-in-out;
 }
 
-.squad:hover {
-	cursor: pointer;
-}
 
 .text {
 	
@@ -72,6 +69,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   animation: bounceInRight 2s ease-in-out;
+  cursor: pointer;
   
 }
 .button:before,
